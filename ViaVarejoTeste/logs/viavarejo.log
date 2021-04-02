@@ -1,0 +1,741 @@
+2021-04-02 16:46:37,204 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.4.Final
+2021-04-02 16:46:37,216 INFO org.springframework.boot.StartupInfoLogger [main] Starting ViaVarejoTesteApplication using Java 15.0.2 on DESKTOP-FRO1101 with PID 8572 (C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste\target\classes started by Daniel in C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste)
+2021-04-02 16:46:37,217 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-02 16:46:38,145 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-02 16:46:38,205 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 54 ms. Found 2 MongoDB repository interfaces.
+2021-04-02 16:46:38,739 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-02 16:46:38,751 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-02 16:46:38,751 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-02 16:46:38,752 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-02 16:46:38,866 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-02 16:46:38,866 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1590 ms
+2021-04-02 16:46:39,053 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-02 16:46:39,120 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6067749ffeebac1411df76e6', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:145}] to localhost:27017
+2021-04-02 16:46:39,120 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6067749ffeebac1411df76e6', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:144}] to localhost:27017
+2021-04-02 16:46:39,120 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6067749ffeebac1411df76e6', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=22824400}
+2021-04-02 16:46:39,921 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-02 16:46:39,949 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/viavarejo'
+2021-04-02 16:46:40,031 INFO org.springframework.boot.StartupInfoLogger [main] Started ViaVarejoTesteApplication in 3.338 seconds (JVM running for 4.344)
+2021-04-02 16:46:47,145 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-02 16:46:47,147 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-02 16:46:47,147 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2021-04-02 16:46:47,226 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-1] Opened connection [connectionId{localValue:3, serverValue:146}] to localhost:27017
+2021-04-02 16:46:47,275 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-1] Procurando cliente pelo ID: 6064f9bb1bbac963d5a3bd3e
+2021-04-02 16:46:47,297 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-1] Procurando cliente pelo ID: 6065ecb7e93cc9709dfd0f4e
+2021-04-02 16:46:53,451 INFO com.viavarejo.application.controller.SeguradoraController [http-nio-8080-exec-3] [INICIO do UPDATE - APOLICE]
+2021-04-02 16:48:21,116 INFO com.viavarejo.application.controller.SeguradoraController [http-nio-8080-exec-6] [INICIO do UPDATE - APOLICE]
+2021-04-02 16:48:21,119 INFO com.viavarejo.application.controller.SeguradoraController [http-nio-8080-exec-6] [INICIANDO PERSISTENCIA - APOLICE]
+2021-04-02 16:48:25,855 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-7] Procurando cliente pelo ID: 6064f9bb1bbac963d5a3bd3e
+2021-04-02 16:48:25,859 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-7] Procurando cliente pelo ID: 6065ecb7e93cc9709dfd0f4e
+2021-04-02 16:51:47,626 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-10] Procurando cliente pelo ID: 6064f9bb1bbac963d5a3bd3e
+2021-04-02 16:51:47,628 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-10] Procurando cliente pelo ID: 6065ecb7e93cc9709dfd0f4e
+2021-04-02 16:54:40,135 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-6] Procurando cliente pelo ID: 6064f9bb1bbac963d5a3bd3e
+2021-04-02 17:01:08,534 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(19)-127.0.0.1] Application shutdown requested.
+2021-04-02 17:01:08,576 INFO com.mongodb.diagnostics.logging.SLF4JLogger [RMI TCP Connection(19)-127.0.0.1] Closed connection [connectionId{localValue:3, serverValue:146}] to localhost:27017 because the pool has been closed.
+2021-04-02 17:01:41,382 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.4.Final
+2021-04-02 17:01:41,387 INFO org.springframework.boot.StartupInfoLogger [main] Starting ViaVarejoTesteApplication using Java 15.0.2 on DESKTOP-FRO1101 with PID 5336 (C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste\target\classes started by Daniel in C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste)
+2021-04-02 17:01:41,388 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-02 17:01:42,314 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-02 17:01:42,372 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 52 ms. Found 2 MongoDB repository interfaces.
+2021-04-02 17:01:42,844 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-02 17:01:42,854 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:01:42,855 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-02 17:01:42,855 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-02 17:01:42,953 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-02 17:01:42,954 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1515 ms
+2021-04-02 17:01:43,120 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-02 17:01:43,186 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606778272120a33dac5706df', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:147}] to localhost:27017
+2021-04-02 17:01:43,186 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606778272120a33dac5706df', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:148}] to localhost:27017
+2021-04-02 17:01:43,187 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606778272120a33dac5706df', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=22364100}
+2021-04-02 17:01:43,820 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:01:43,963 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:01:43,991 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/viavarejo'
+2021-04-02 17:01:44,435 INFO org.springframework.boot.StartupInfoLogger [main] Started ViaVarejoTesteApplication in 3.561 seconds (JVM running for 4.443)
+2021-04-02 17:02:04,561 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-02 17:02:04,561 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-02 17:02:04,562 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-04-02 17:04:47,301 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(5)-127.0.0.1] Application shutdown requested.
+2021-04-02 17:04:47,334 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(5)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:06:17,193 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.4.Final
+2021-04-02 17:06:17,207 INFO org.springframework.boot.StartupInfoLogger [main] Starting ViaVarejoTesteApplication using Java 15.0.2 on DESKTOP-FRO1101 with PID 1696 (C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste\target\classes started by Daniel in C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste)
+2021-04-02 17:06:17,208 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-02 17:06:18,134 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-02 17:06:18,195 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 55 ms. Found 2 MongoDB repository interfaces.
+2021-04-02 17:06:18,715 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-02 17:06:18,726 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:06:18,727 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-02 17:06:18,727 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-02 17:06:18,834 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-02 17:06:18,835 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1574 ms
+2021-04-02 17:06:19,019 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-02 17:06:19,088 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6067793bcf19000ee9b1bcf8', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:149}] to localhost:27017
+2021-04-02 17:06:19,088 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6067793bcf19000ee9b1bcf8', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:150}] to localhost:27017
+2021-04-02 17:06:19,089 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6067793bcf19000ee9b1bcf8', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=22722300}
+2021-04-02 17:06:19,699 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-02 17:06:19,805 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:06:19,954 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:06:19,981 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/viavarejo'
+2021-04-02 17:06:19,982 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-04-02 17:06:20,007 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-04-02 17:06:20,048 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-04-02 17:06:20,396 INFO org.springframework.boot.StartupInfoLogger [main] Started ViaVarejoTesteApplication in 3.728 seconds (JVM running for 4.679)
+2021-04-02 17:06:43,766 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-02 17:06:43,767 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-02 17:06:43,768 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-04-02 17:08:46,541 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(7)-127.0.0.1] Application shutdown requested.
+2021-04-02 17:08:46,573 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(7)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:08:52,659 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.4.Final
+2021-04-02 17:08:52,671 INFO org.springframework.boot.StartupInfoLogger [main] Starting ViaVarejoTesteApplication using Java 15.0.2 on DESKTOP-FRO1101 with PID 8252 (C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste\target\classes started by Daniel in C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste)
+2021-04-02 17:08:52,672 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-02 17:08:53,541 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-02 17:08:53,601 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 55 ms. Found 2 MongoDB repository interfaces.
+2021-04-02 17:08:54,087 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-02 17:08:54,097 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:08:54,098 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-02 17:08:54,099 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-02 17:08:54,199 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-02 17:08:54,199 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1476 ms
+2021-04-02 17:08:54,378 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-02 17:08:54,452 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606779d63aca1b181a505dfe', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:151}] to localhost:27017
+2021-04-02 17:08:54,452 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606779d63aca1b181a505dfe', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:152}] to localhost:27017
+2021-04-02 17:08:54,453 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606779d63aca1b181a505dfe', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=23488300}
+2021-04-02 17:08:55,071 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-02 17:08:55,174 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:08:55,315 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:08:55,344 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/viavarejo'
+2021-04-02 17:08:55,345 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-04-02 17:08:55,370 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-04-02 17:08:55,413 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-04-02 17:08:55,747 INFO org.springframework.boot.StartupInfoLogger [main] Started ViaVarejoTesteApplication in 3.568 seconds (JVM running for 4.523)
+2021-04-02 17:10:12,207 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-02 17:10:12,208 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-02 17:10:12,209 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-04-02 17:12:02,642 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-6] Opened connection [connectionId{localValue:3, serverValue:153}] to localhost:27017
+2021-04-02 17:12:02,690 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-6] Procurando cliente pelo ID: 6064f9bb1bbac963d5a3bd3e
+2021-04-02 17:12:02,712 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-6] Procurando cliente pelo ID: 6065ecb7e93cc9709dfd0f4e
+2021-04-02 17:17:03,017 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(10)-127.0.0.1] Application shutdown requested.
+2021-04-02 17:17:03,053 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(10)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:17:03,060 INFO com.mongodb.diagnostics.logging.SLF4JLogger [RMI TCP Connection(10)-127.0.0.1] Closed connection [connectionId{localValue:3, serverValue:153}] to localhost:27017 because the pool has been closed.
+2021-04-02 17:17:51,673 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.4.Final
+2021-04-02 17:17:51,686 INFO org.springframework.boot.StartupInfoLogger [main] Starting ViaVarejoTesteApplication using Java 15.0.2 on DESKTOP-FRO1101 with PID 7388 (C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste\target\classes started by Daniel in C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste)
+2021-04-02 17:17:51,687 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-02 17:17:52,548 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-02 17:17:52,604 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 51 ms. Found 2 MongoDB repository interfaces.
+2021-04-02 17:17:53,080 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-02 17:17:53,091 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:17:53,092 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-02 17:17:53,092 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-02 17:17:53,190 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-02 17:17:53,190 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1452 ms
+2021-04-02 17:17:53,347 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-02 17:17:53,416 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='60677bf137374a22f38c6fe9', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:154}] to localhost:27017
+2021-04-02 17:17:53,416 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60677bf137374a22f38c6fe9', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:155}] to localhost:27017
+2021-04-02 17:17:53,416 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60677bf137374a22f38c6fe9', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=23186800}
+2021-04-02 17:17:54,017 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-02 17:17:54,111 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:17:54,244 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:17:54,270 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/viavarejo'
+2021-04-02 17:17:54,272 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-04-02 17:17:54,294 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-04-02 17:17:54,331 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-04-02 17:17:54,655 INFO org.springframework.boot.StartupInfoLogger [main] Started ViaVarejoTesteApplication in 3.449 seconds (JVM running for 4.299)
+2021-04-02 17:18:03,198 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-02 17:18:03,198 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-02 17:18:03,199 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-04-02 17:18:03,289 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-1] Opened connection [connectionId{localValue:3, serverValue:156}] to localhost:27017
+2021-04-02 17:18:39,797 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(3)-127.0.0.1] Application shutdown requested.
+2021-04-02 17:18:39,827 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(3)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:18:39,836 INFO com.mongodb.diagnostics.logging.SLF4JLogger [RMI TCP Connection(3)-127.0.0.1] Closed connection [connectionId{localValue:3, serverValue:156}] to localhost:27017 because the pool has been closed.
+2021-04-02 17:18:45,805 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.4.Final
+2021-04-02 17:18:45,805 INFO org.springframework.boot.StartupInfoLogger [main] Starting ViaVarejoTesteApplication using Java 15.0.2 on DESKTOP-FRO1101 with PID 14248 (C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste\target\classes started by Daniel in C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste)
+2021-04-02 17:18:45,810 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-02 17:18:46,746 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-02 17:18:46,811 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 60 ms. Found 2 MongoDB repository interfaces.
+2021-04-02 17:18:47,333 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-02 17:18:47,344 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:18:47,344 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-02 17:18:47,345 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-02 17:18:47,448 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-02 17:18:47,448 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1584 ms
+2021-04-02 17:18:47,631 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-02 17:18:47,710 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60677c276919170a600b5600', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:157}] to localhost:27017
+2021-04-02 17:18:47,710 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='60677c276919170a600b5600', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:158}] to localhost:27017
+2021-04-02 17:18:47,710 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60677c276919170a600b5600', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=21887200}
+2021-04-02 17:18:48,353 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-02 17:18:48,461 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:18:48,611 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:18:48,640 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/viavarejo'
+2021-04-02 17:18:48,641 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-04-02 17:18:48,666 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-04-02 17:18:48,705 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-04-02 17:18:49,045 INFO org.springframework.boot.StartupInfoLogger [main] Started ViaVarejoTesteApplication in 3.818 seconds (JVM running for 4.794)
+2021-04-02 17:18:54,487 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-02 17:18:54,487 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-02 17:18:54,489 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-04-02 17:18:54,580 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-1] Opened connection [connectionId{localValue:3, serverValue:159}] to localhost:27017
+2021-04-02 17:19:02,867 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-04-02 17:19:02,899 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(2)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:19:02,907 INFO com.mongodb.diagnostics.logging.SLF4JLogger [RMI TCP Connection(2)-127.0.0.1] Closed connection [connectionId{localValue:3, serverValue:159}] to localhost:27017 because the pool has been closed.
+2021-04-02 17:19:10,096 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.4.Final
+2021-04-02 17:19:10,108 INFO org.springframework.boot.StartupInfoLogger [main] Starting ViaVarejoTesteApplication using Java 15.0.2 on DESKTOP-FRO1101 with PID 13144 (C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste\target\classes started by Daniel in C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste)
+2021-04-02 17:19:10,109 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-02 17:19:11,091 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-02 17:19:11,161 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 64 ms. Found 2 MongoDB repository interfaces.
+2021-04-02 17:19:11,724 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-02 17:19:11,736 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:19:11,737 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-02 17:19:11,737 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-02 17:19:11,835 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-02 17:19:11,836 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1673 ms
+2021-04-02 17:19:12,055 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-02 17:19:12,139 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='60677c4052d84f236719e58d', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:160}] to localhost:27017
+2021-04-02 17:19:12,139 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60677c4052d84f236719e58d', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:161}] to localhost:27017
+2021-04-02 17:19:12,139 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60677c4052d84f236719e58d', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=26685300}
+2021-04-02 17:19:12,843 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-02 17:19:12,949 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:19:13,114 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:19:13,145 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/viavarejo'
+2021-04-02 17:19:13,146 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-04-02 17:19:13,176 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-04-02 17:19:13,219 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-04-02 17:19:13,572 INFO org.springframework.boot.StartupInfoLogger [main] Started ViaVarejoTesteApplication in 4.053 seconds (JVM running for 5.289)
+2021-04-02 17:19:18,578 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-02 17:19:18,579 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-04-02 17:19:18,580 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2021-04-02 17:19:18,682 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-2] Opened connection [connectionId{localValue:3, serverValue:162}] to localhost:27017
+2021-04-02 17:23:10,783 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.4.Final
+2021-04-02 17:23:10,807 INFO org.springframework.boot.StartupInfoLogger [main] Starting ViaVarejoTesteApplication using Java 15.0.2 on DESKTOP-FRO1101 with PID 10700 (C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste\target\classes started by Daniel in C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste)
+2021-04-02 17:23:10,808 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-02 17:23:11,800 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-02 17:23:11,868 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 61 ms. Found 2 MongoDB repository interfaces.
+2021-04-02 17:23:12,444 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-02 17:23:12,457 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:23:12,458 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-02 17:23:12,458 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-02 17:23:12,572 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-02 17:23:12,573 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1702 ms
+2021-04-02 17:23:12,786 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-02 17:23:12,868 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60677d30d5f83e7281716d89', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:164}] to localhost:27017
+2021-04-02 17:23:12,868 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='60677d30d5f83e7281716d89', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:163}] to localhost:27017
+2021-04-02 17:23:12,869 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60677d30d5f83e7281716d89', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=29304400}
+2021-04-02 17:23:13,514 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-02 17:23:13,616 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:23:13,773 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:23:13,813 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/viavarejo'
+2021-04-02 17:23:13,814 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-04-02 17:23:13,846 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-04-02 17:23:13,909 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-04-02 17:23:14,271 INFO org.springframework.boot.StartupInfoLogger [main] Started ViaVarejoTesteApplication in 4.029 seconds (JVM running for 5.182)
+2021-04-02 17:23:25,919 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-02 17:23:25,920 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-02 17:23:25,921 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-04-02 17:23:26,019 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-1] Opened connection [connectionId{localValue:3, serverValue:165}] to localhost:27017
+2021-04-02 17:25:39,446 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.4.Final
+2021-04-02 17:25:39,456 INFO org.springframework.boot.StartupInfoLogger [main] Starting ViaVarejoTesteApplication using Java 15.0.2 on DESKTOP-FRO1101 with PID 10528 (C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste\target\classes started by Daniel in C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste)
+2021-04-02 17:25:39,457 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-02 17:25:40,306 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-02 17:25:40,364 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 53 ms. Found 2 MongoDB repository interfaces.
+2021-04-02 17:25:40,841 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-02 17:25:40,852 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:25:40,853 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-02 17:25:40,853 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-02 17:25:40,957 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-02 17:25:40,957 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1450 ms
+2021-04-02 17:25:41,129 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-02 17:25:41,195 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='60677dc5fa936b4723ae52a1', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:166}] to localhost:27017
+2021-04-02 17:25:41,195 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60677dc5fa936b4723ae52a1', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:167}] to localhost:27017
+2021-04-02 17:25:41,196 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60677dc5fa936b4723ae52a1', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=21804800}
+2021-04-02 17:25:41,748 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-02 17:25:41,847 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:25:41,980 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:25:42,008 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/viavarejo'
+2021-04-02 17:25:42,009 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-04-02 17:25:42,032 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-04-02 17:25:42,068 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-04-02 17:25:42,375 INFO org.springframework.boot.StartupInfoLogger [main] Started ViaVarejoTesteApplication in 3.398 seconds (JVM running for 4.259)
+2021-04-02 17:25:52,662 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-04-02 17:25:52,692 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(2)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:26:00,584 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.4.Final
+2021-04-02 17:26:00,596 INFO org.springframework.boot.StartupInfoLogger [main] Starting ViaVarejoTesteApplication using Java 15.0.2 on DESKTOP-FRO1101 with PID 12468 (C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste\target\classes started by Daniel in C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste)
+2021-04-02 17:26:00,597 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-02 17:26:01,525 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-02 17:26:01,584 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 53 ms. Found 2 MongoDB repository interfaces.
+2021-04-02 17:26:02,127 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-02 17:26:02,138 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:26:02,139 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-02 17:26:02,140 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-02 17:26:02,247 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-02 17:26:02,247 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1595 ms
+2021-04-02 17:26:02,416 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-02 17:26:02,493 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='60677dda714097302e5226f0', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:169}] to localhost:27017
+2021-04-02 17:26:02,493 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60677dda714097302e5226f0', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:168}] to localhost:27017
+2021-04-02 17:26:02,494 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60677dda714097302e5226f0', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=23794700}
+2021-04-02 17:26:03,105 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-02 17:26:03,197 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:26:03,350 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:26:03,379 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/viavarejo'
+2021-04-02 17:26:03,380 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-04-02 17:26:03,404 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-04-02 17:26:03,446 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-04-02 17:26:03,794 INFO org.springframework.boot.StartupInfoLogger [main] Started ViaVarejoTesteApplication in 3.712 seconds (JVM running for 4.602)
+2021-04-02 17:26:12,500 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-02 17:26:12,500 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-02 17:26:12,502 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-04-02 17:26:12,589 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-1] Opened connection [connectionId{localValue:3, serverValue:170}] to localhost:27017
+2021-04-02 17:27:56,731 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(5)-127.0.0.1] Application shutdown requested.
+2021-04-02 17:27:56,765 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(5)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:27:56,772 INFO com.mongodb.diagnostics.logging.SLF4JLogger [RMI TCP Connection(5)-127.0.0.1] Closed connection [connectionId{localValue:3, serverValue:170}] to localhost:27017 because the pool has been closed.
+2021-04-02 17:28:07,687 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.4.Final
+2021-04-02 17:28:07,700 INFO org.springframework.boot.StartupInfoLogger [main] Starting ViaVarejoTesteApplication using Java 15.0.2 on DESKTOP-FRO1101 with PID 8044 (C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste\target\classes started by Daniel in C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste)
+2021-04-02 17:28:07,701 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-02 17:28:08,654 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-02 17:28:08,714 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 54 ms. Found 2 MongoDB repository interfaces.
+2021-04-02 17:28:09,332 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-02 17:28:09,345 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:28:09,345 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-02 17:28:09,346 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-02 17:28:09,461 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-02 17:28:09,461 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1707 ms
+2021-04-02 17:28:09,637 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-02 17:28:09,722 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='60677e59a1f4f21a4a6034e6', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:172}] to localhost:27017
+2021-04-02 17:28:09,723 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60677e59a1f4f21a4a6034e6', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:171}] to localhost:27017
+2021-04-02 17:28:09,732 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60677e59a1f4f21a4a6034e6', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=28606300}
+2021-04-02 17:28:10,340 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-02 17:28:10,436 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:28:10,582 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:28:10,619 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/viavarejo'
+2021-04-02 17:28:10,620 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-04-02 17:28:10,645 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-04-02 17:28:10,687 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-04-02 17:28:11,031 INFO org.springframework.boot.StartupInfoLogger [main] Started ViaVarejoTesteApplication in 3.86 seconds (JVM running for 4.797)
+2021-04-02 17:28:19,623 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-02 17:28:19,623 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-02 17:28:19,624 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-04-02 17:28:19,728 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-1] Opened connection [connectionId{localValue:3, serverValue:173}] to localhost:27017
+2021-04-02 17:28:22,712 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-3] Procurando cliente pelo ID: 6064f9bb1bbac963d5a3bd3e
+2021-04-02 17:28:22,724 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-3] Procurando cliente pelo ID: 6065ecb7e93cc9709dfd0f4e
+2021-04-02 17:28:27,719 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-4] Procurando cliente pelo ID: 6064f9bb1bbac963d5a3bd3e
+2021-04-02 17:28:43,539 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-6] Procurando cliente pelo ID: 6065ecb7e93cc9709dfd0f4e123
+2021-04-02 17:28:49,721 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-7] Procurando cliente pelo ID: 6065ecb7e93cc9709dfd0f4e
+2021-04-02 17:35:01,843 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(11)-127.0.0.1] Application shutdown requested.
+2021-04-02 17:35:01,871 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(11)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:35:01,878 INFO com.mongodb.diagnostics.logging.SLF4JLogger [RMI TCP Connection(11)-127.0.0.1] Closed connection [connectionId{localValue:3, serverValue:173}] to localhost:27017 because the pool has been closed.
+2021-04-02 17:35:08,637 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.4.Final
+2021-04-02 17:35:08,645 INFO org.springframework.boot.StartupInfoLogger [main] Starting ViaVarejoTesteApplication using Java 15.0.2 on DESKTOP-FRO1101 with PID 2036 (C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste\target\classes started by Daniel in C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste)
+2021-04-02 17:35:08,645 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-02 17:35:09,518 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-02 17:35:09,574 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 52 ms. Found 2 MongoDB repository interfaces.
+2021-04-02 17:35:10,058 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-02 17:35:10,070 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:35:10,071 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-02 17:35:10,072 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-02 17:35:10,197 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-02 17:35:10,198 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1502 ms
+2021-04-02 17:35:10,384 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-02 17:35:10,469 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60677ffe5b29916b8816f9bf', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:174}] to localhost:27017
+2021-04-02 17:35:10,469 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='60677ffe5b29916b8816f9bf', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:175}] to localhost:27017
+2021-04-02 17:35:10,470 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60677ffe5b29916b8816f9bf', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=37333700}
+2021-04-02 17:35:11,098 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-02 17:35:11,195 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:35:11,329 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:35:11,357 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/viavarejo'
+2021-04-02 17:35:11,358 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-04-02 17:35:11,383 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-04-02 17:35:11,429 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-04-02 17:35:11,749 INFO org.springframework.boot.StartupInfoLogger [main] Started ViaVarejoTesteApplication in 3.663 seconds (JVM running for 4.524)
+2021-04-02 17:35:41,282 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-02 17:35:41,283 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-02 17:35:41,284 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-04-02 17:36:48,950 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(4)-127.0.0.1] Application shutdown requested.
+2021-04-02 17:36:48,982 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(4)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:36:53,761 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.4.Final
+2021-04-02 17:36:53,772 INFO org.springframework.boot.StartupInfoLogger [main] Starting ViaVarejoTesteApplication using Java 15.0.2 on DESKTOP-FRO1101 with PID 9868 (C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste\target\classes started by Daniel in C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste)
+2021-04-02 17:36:53,773 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-02 17:36:54,655 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-02 17:36:54,722 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 62 ms. Found 2 MongoDB repository interfaces.
+2021-04-02 17:36:55,218 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-02 17:36:55,228 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:36:55,229 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-02 17:36:55,229 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-02 17:36:55,330 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-02 17:36:55,331 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1507 ms
+2021-04-02 17:36:55,496 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-02 17:36:55,559 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='60678067696dd554454f279a', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:177}] to localhost:27017
+2021-04-02 17:36:55,559 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60678067696dd554454f279a', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:176}] to localhost:27017
+2021-04-02 17:36:55,559 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60678067696dd554454f279a', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=20935300}
+2021-04-02 17:36:56,155 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-02 17:36:56,254 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:36:56,388 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:36:56,416 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/viavarejo'
+2021-04-02 17:36:56,417 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-04-02 17:36:56,441 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-04-02 17:36:56,478 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-04-02 17:36:56,792 INFO org.springframework.boot.StartupInfoLogger [main] Started ViaVarejoTesteApplication in 3.536 seconds (JVM running for 4.52)
+2021-04-02 17:37:12,107 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-02 17:37:12,107 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-04-02 17:37:12,108 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2021-04-02 17:38:21,809 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-5] Opened connection [connectionId{localValue:3, serverValue:178}] to localhost:27017
+2021-04-02 17:38:56,610 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(4)-127.0.0.1] Application shutdown requested.
+2021-04-02 17:38:56,646 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(4)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:38:56,654 INFO com.mongodb.diagnostics.logging.SLF4JLogger [RMI TCP Connection(4)-127.0.0.1] Closed connection [connectionId{localValue:3, serverValue:178}] to localhost:27017 because the pool has been closed.
+2021-04-02 17:39:01,389 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.4.Final
+2021-04-02 17:39:01,402 INFO org.springframework.boot.StartupInfoLogger [main] Starting ViaVarejoTesteApplication using Java 15.0.2 on DESKTOP-FRO1101 with PID 7360 (C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste\target\classes started by Daniel in C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste)
+2021-04-02 17:39:01,403 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-02 17:39:02,264 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-02 17:39:02,318 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 50 ms. Found 2 MongoDB repository interfaces.
+2021-04-02 17:39:02,793 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-02 17:39:02,803 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:39:02,804 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-02 17:39:02,804 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-02 17:39:02,924 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-02 17:39:02,925 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1468 ms
+2021-04-02 17:39:03,092 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-02 17:39:03,164 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606780e7cfc9ab2e7e39c4a1', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:180}] to localhost:27017
+2021-04-02 17:39:03,164 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606780e7cfc9ab2e7e39c4a1', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:179}] to localhost:27017
+2021-04-02 17:39:03,165 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606780e7cfc9ab2e7e39c4a1', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=23338400}
+2021-04-02 17:39:03,734 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-02 17:39:03,828 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:39:03,960 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:39:03,988 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/viavarejo'
+2021-04-02 17:39:03,989 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-04-02 17:39:04,013 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-04-02 17:39:04,054 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-04-02 17:39:04,368 INFO org.springframework.boot.StartupInfoLogger [main] Started ViaVarejoTesteApplication in 3.497 seconds (JVM running for 4.424)
+2021-04-02 17:39:22,767 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-02 17:39:22,768 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-04-02 17:39:22,769 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2021-04-02 17:39:46,858 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-3] Opened connection [connectionId{localValue:3, serverValue:181}] to localhost:27017
+2021-04-02 17:39:53,122 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-4] Procurando cliente pelo ID: 6064f9bb1bbac963d5a3bd3e
+2021-04-02 17:39:53,139 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-4] Procurando cliente pelo ID: 6065ecb7e93cc9709dfd0f4e
+2021-04-02 17:39:53,141 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-4] Procurando cliente pelo ID: 6064f9bb1bbac963d5a3bd3e
+2021-04-02 17:40:37,258 INFO com.viavarejo.application.controller.SeguradoraController [http-nio-8080-exec-5] [INICIO do UPDATE - APOLICE]
+2021-04-02 17:40:37,261 INFO com.viavarejo.application.controller.SeguradoraController [http-nio-8080-exec-5] [INICIANDO PERSISTENCIA - APOLICE]
+2021-04-02 17:40:41,392 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-6] Procurando cliente pelo ID: 6064f9bb1bbac963d5a3bd3e
+2021-04-02 17:40:41,394 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-6] Procurando cliente pelo ID: 6065ecb7e93cc9709dfd0f4e
+2021-04-02 17:40:41,396 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-6] Procurando cliente pelo ID: 6064f9bb1bbac963d5a3bd3e
+2021-04-02 17:44:03,229 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(7)-127.0.0.1] Application shutdown requested.
+2021-04-02 17:44:03,263 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(7)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:44:03,270 INFO com.mongodb.diagnostics.logging.SLF4JLogger [RMI TCP Connection(7)-127.0.0.1] Closed connection [connectionId{localValue:3, serverValue:181}] to localhost:27017 because the pool has been closed.
+2021-04-02 17:44:09,451 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.4.Final
+2021-04-02 17:44:09,462 INFO org.springframework.boot.StartupInfoLogger [main] Starting ViaVarejoTesteApplication using Java 15.0.2 on DESKTOP-FRO1101 with PID 11260 (C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste\target\classes started by Daniel in C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste)
+2021-04-02 17:44:09,463 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-02 17:44:10,401 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-02 17:44:10,459 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 52 ms. Found 2 MongoDB repository interfaces.
+2021-04-02 17:44:10,968 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-02 17:44:10,979 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:44:10,979 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-02 17:44:10,980 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-02 17:44:11,089 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-02 17:44:11,090 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1572 ms
+2021-04-02 17:44:11,264 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-02 17:44:11,345 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6067821b323e382e860959b3', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:183}] to localhost:27017
+2021-04-02 17:44:11,345 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6067821b323e382e860959b3', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:182}] to localhost:27017
+2021-04-02 17:44:11,345 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6067821b323e382e860959b3', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=23412500}
+2021-04-02 17:44:11,931 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-02 17:44:12,023 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:44:12,173 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:44:12,200 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/viavarejo'
+2021-04-02 17:44:12,201 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-04-02 17:44:12,225 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-04-02 17:44:12,265 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-04-02 17:44:12,597 INFO org.springframework.boot.StartupInfoLogger [main] Started ViaVarejoTesteApplication in 3.651 seconds (JVM running for 4.597)
+2021-04-02 17:44:36,999 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-02 17:44:37,000 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-02 17:44:37,001 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-04-02 17:44:37,078 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-1] Opened connection [connectionId{localValue:3, serverValue:184}] to localhost:27017
+2021-04-02 17:44:37,133 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-1] Procurando cliente pelo ID: 6064f9bb1bbac963d5a3bd3e
+2021-04-02 17:44:37,152 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-1] Procurando cliente pelo ID: 6065ecb7e93cc9709dfd0f4e
+2021-04-02 17:44:37,155 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-1] Procurando cliente pelo ID: 6064f9bb1bbac963d5a3bd3e
+2021-04-02 17:44:53,252 INFO com.viavarejo.application.controller.SeguradoraController [http-nio-8080-exec-3] [INICIO do UPDATE - APOLICE]
+2021-04-02 17:45:05,899 INFO com.viavarejo.application.controller.SeguradoraController [http-nio-8080-exec-4] [INICIO do UPDATE - APOLICE]
+2021-04-02 17:45:35,488 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(5)-127.0.0.1] Application shutdown requested.
+2021-04-02 17:45:35,516 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(5)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:45:35,524 INFO com.mongodb.diagnostics.logging.SLF4JLogger [RMI TCP Connection(5)-127.0.0.1] Closed connection [connectionId{localValue:3, serverValue:184}] to localhost:27017 because the pool has been closed.
+2021-04-02 17:45:42,278 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.4.Final
+2021-04-02 17:45:42,302 INFO org.springframework.boot.StartupInfoLogger [main] Starting ViaVarejoTesteApplication using Java 15.0.2 on DESKTOP-FRO1101 with PID 7368 (C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste\target\classes started by Daniel in C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste)
+2021-04-02 17:45:42,303 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-02 17:45:43,274 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-02 17:45:43,339 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 59 ms. Found 2 MongoDB repository interfaces.
+2021-04-02 17:45:43,887 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-02 17:45:43,898 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:45:43,899 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-02 17:45:43,900 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-02 17:45:44,008 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-02 17:45:44,008 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1646 ms
+2021-04-02 17:45:44,207 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-02 17:45:44,291 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60678278d0eaaa40c84476e4', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:186}] to localhost:27017
+2021-04-02 17:45:44,291 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='60678278d0eaaa40c84476e4', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:185}] to localhost:27017
+2021-04-02 17:45:44,292 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60678278d0eaaa40c84476e4', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=27299000}
+2021-04-02 17:45:44,929 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-02 17:45:45,030 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:45:45,192 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:45:45,224 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/viavarejo'
+2021-04-02 17:45:45,225 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-04-02 17:45:45,256 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-04-02 17:45:45,300 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-04-02 17:45:45,637 INFO org.springframework.boot.StartupInfoLogger [main] Started ViaVarejoTesteApplication in 3.914 seconds (JVM running for 5.059)
+2021-04-02 17:45:49,874 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-02 17:45:49,875 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-02 17:45:49,876 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-04-02 17:45:49,969 INFO com.viavarejo.application.controller.SeguradoraController [http-nio-8080-exec-1] [INICIO do UPDATE - APOLICE]
+2021-04-02 17:45:50,030 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-1] Opened connection [connectionId{localValue:3, serverValue:187}] to localhost:27017
+2021-04-02 17:46:06,727 INFO com.viavarejo.application.controller.SeguradoraController [http-nio-8080-exec-3] [INICIO do UPDATE - APOLICE]
+2021-04-02 17:46:39,212 INFO com.viavarejo.application.controller.SeguradoraController [http-nio-8080-exec-4] [INICIO do UPDATE - APOLICE]
+2021-04-02 17:46:44,674 INFO com.viavarejo.application.controller.SeguradoraController [http-nio-8080-exec-4] [INICIANDO PERSISTENCIA - APOLICE]
+2021-04-02 17:48:14,946 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(7)-127.0.0.1] Application shutdown requested.
+2021-04-02 17:48:14,983 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(7)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:48:14,993 INFO com.mongodb.diagnostics.logging.SLF4JLogger [RMI TCP Connection(7)-127.0.0.1] Closed connection [connectionId{localValue:3, serverValue:187}] to localhost:27017 because the pool has been closed.
+2021-04-02 17:48:20,916 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.4.Final
+2021-04-02 17:48:20,924 INFO org.springframework.boot.StartupInfoLogger [main] Starting ViaVarejoTesteApplication using Java 15.0.2 on DESKTOP-FRO1101 with PID 9368 (C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste\target\classes started by Daniel in C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste)
+2021-04-02 17:48:20,925 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-02 17:48:21,900 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-02 17:48:21,963 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 57 ms. Found 2 MongoDB repository interfaces.
+2021-04-02 17:48:22,480 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-02 17:48:22,491 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:48:22,492 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-02 17:48:22,493 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-02 17:48:22,601 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-02 17:48:22,601 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1620 ms
+2021-04-02 17:48:22,782 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-02 17:48:22,861 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606783169bbabe7ce30e6581', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:188}] to localhost:27017
+2021-04-02 17:48:22,861 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606783169bbabe7ce30e6581', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:189}] to localhost:27017
+2021-04-02 17:48:22,861 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606783169bbabe7ce30e6581', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=23019100}
+2021-04-02 17:48:23,496 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-02 17:48:23,596 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:48:23,746 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:48:23,780 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/viavarejo'
+2021-04-02 17:48:23,781 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-04-02 17:48:23,805 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-04-02 17:48:23,847 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-04-02 17:48:24,176 INFO org.springframework.boot.StartupInfoLogger [main] Started ViaVarejoTesteApplication in 3.796 seconds (JVM running for 4.767)
+2021-04-02 17:48:28,914 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-02 17:48:28,914 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-02 17:48:28,916 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-04-02 17:48:29,006 INFO com.viavarejo.application.controller.SeguradoraController [http-nio-8080-exec-1] [INICIO do UPDATE - APOLICE]
+2021-04-02 17:48:29,062 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-1] Opened connection [connectionId{localValue:3, serverValue:190}] to localhost:27017
+2021-04-02 17:48:40,688 INFO com.viavarejo.application.controller.SeguradoraController [http-nio-8080-exec-3] [INICIO do UPDATE - APOLICE]
+2021-04-02 17:48:59,926 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(3)-127.0.0.1] Application shutdown requested.
+2021-04-02 17:48:59,958 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(3)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:48:59,966 INFO com.mongodb.diagnostics.logging.SLF4JLogger [RMI TCP Connection(3)-127.0.0.1] Closed connection [connectionId{localValue:3, serverValue:190}] to localhost:27017 because the pool has been closed.
+2021-04-02 17:49:04,402 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.4.Final
+2021-04-02 17:49:04,411 INFO org.springframework.boot.StartupInfoLogger [main] Starting ViaVarejoTesteApplication using Java 15.0.2 on DESKTOP-FRO1101 with PID 2032 (C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste\target\classes started by Daniel in C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste)
+2021-04-02 17:49:04,412 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-02 17:49:05,275 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-02 17:49:05,331 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 51 ms. Found 2 MongoDB repository interfaces.
+2021-04-02 17:49:05,803 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-02 17:49:05,814 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:49:05,814 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-02 17:49:05,815 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-02 17:49:05,912 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-02 17:49:05,913 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1451 ms
+2021-04-02 17:49:06,083 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-02 17:49:06,151 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60678342ca4b533ff80c6253', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:192}] to localhost:27017
+2021-04-02 17:49:06,151 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='60678342ca4b533ff80c6253', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:191}] to localhost:27017
+2021-04-02 17:49:06,151 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60678342ca4b533ff80c6253', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=22339500}
+2021-04-02 17:49:06,718 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-02 17:49:06,815 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:49:06,946 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:49:06,973 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/viavarejo'
+2021-04-02 17:49:06,974 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-04-02 17:49:06,996 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-04-02 17:49:07,037 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-04-02 17:49:07,348 INFO org.springframework.boot.StartupInfoLogger [main] Started ViaVarejoTesteApplication in 3.423 seconds (JVM running for 4.298)
+2021-04-02 17:49:12,098 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-02 17:49:12,099 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-04-02 17:49:12,100 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2021-04-02 17:49:12,177 INFO com.viavarejo.application.controller.SeguradoraController [http-nio-8080-exec-2] [INICIO do UPDATE - APOLICE]
+2021-04-02 17:49:12,227 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-2] Opened connection [connectionId{localValue:3, serverValue:193}] to localhost:27017
+2021-04-02 17:49:17,024 INFO com.viavarejo.application.controller.SeguradoraController [http-nio-8080-exec-3] [INICIO do UPDATE - APOLICE]
+2021-04-02 17:49:21,132 INFO com.viavarejo.application.controller.SeguradoraController [http-nio-8080-exec-4] [INICIO do UPDATE - APOLICE]
+2021-04-02 17:49:25,468 INFO com.viavarejo.application.controller.SeguradoraController [http-nio-8080-exec-5] [INICIO do UPDATE - APOLICE]
+2021-04-02 17:49:25,471 INFO com.viavarejo.application.controller.SeguradoraController [http-nio-8080-exec-5] [INICIANDO PERSISTENCIA - APOLICE]
+2021-04-02 17:55:54,780 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(11)-127.0.0.1] Application shutdown requested.
+2021-04-02 17:55:54,814 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(11)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:55:54,822 INFO com.mongodb.diagnostics.logging.SLF4JLogger [RMI TCP Connection(11)-127.0.0.1] Closed connection [connectionId{localValue:3, serverValue:193}] to localhost:27017 because the pool has been closed.
+2021-04-02 17:55:59,638 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.4.Final
+2021-04-02 17:55:59,648 INFO org.springframework.boot.StartupInfoLogger [main] Starting ViaVarejoTesteApplication using Java 15.0.2 on DESKTOP-FRO1101 with PID 6492 (C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste\target\classes started by Daniel in C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste)
+2021-04-02 17:55:59,649 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-02 17:56:00,592 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-02 17:56:00,655 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 58 ms. Found 2 MongoDB repository interfaces.
+2021-04-02 17:56:01,246 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-02 17:56:01,258 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:56:01,258 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-02 17:56:01,259 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-02 17:56:01,380 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-02 17:56:01,381 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1676 ms
+2021-04-02 17:56:01,574 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-02 17:56:01,652 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606784e1ee23d762c8ead787', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:195}] to localhost:27017
+2021-04-02 17:56:01,652 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606784e1ee23d762c8ead787', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:194}] to localhost:27017
+2021-04-02 17:56:01,653 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606784e1ee23d762c8ead787', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=24099600}
+2021-04-02 17:56:02,292 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-02 17:56:02,389 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:56:02,540 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:56:02,568 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/viavarejo'
+2021-04-02 17:56:02,570 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-04-02 17:56:02,593 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-04-02 17:56:02,635 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-04-02 17:56:02,926 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-02 17:56:02,927 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-02 17:56:02,929 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2021-04-02 17:56:03,017 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-1] Opened connection [connectionId{localValue:3, serverValue:196}] to localhost:27017
+2021-04-02 17:56:03,035 INFO org.springframework.boot.StartupInfoLogger [main] Started ViaVarejoTesteApplication in 3.946 seconds (JVM running for 4.879)
+2021-04-02 17:57:31,371 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(4)-127.0.0.1] Application shutdown requested.
+2021-04-02 17:57:31,402 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(4)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:57:31,409 INFO com.mongodb.diagnostics.logging.SLF4JLogger [RMI TCP Connection(4)-127.0.0.1] Closed connection [connectionId{localValue:3, serverValue:196}] to localhost:27017 because the pool has been closed.
+2021-04-02 17:57:45,861 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.4.Final
+2021-04-02 17:57:45,871 INFO org.springframework.boot.StartupInfoLogger [main] Starting ViaVarejoTesteApplication using Java 15.0.2 on DESKTOP-FRO1101 with PID 1564 (C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste\target\classes started by Daniel in C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste)
+2021-04-02 17:57:45,872 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-02 17:57:46,726 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-02 17:57:46,780 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 49 ms. Found 2 MongoDB repository interfaces.
+2021-04-02 17:57:47,254 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-02 17:57:47,264 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:57:47,264 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-02 17:57:47,265 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-02 17:57:47,356 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-02 17:57:47,356 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1433 ms
+2021-04-02 17:57:47,507 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-02 17:57:47,587 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6067854bfba8062b9db33a1a', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:197}] to localhost:27017
+2021-04-02 17:57:47,587 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6067854bfba8062b9db33a1a', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:198}] to localhost:27017
+2021-04-02 17:57:47,588 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6067854bfba8062b9db33a1a', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=23888700}
+2021-04-02 17:57:48,157 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-02 17:57:48,238 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:57:48,378 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:57:48,405 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/viavarejo'
+2021-04-02 17:57:48,406 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-04-02 17:57:48,429 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-04-02 17:57:48,466 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-04-02 17:57:48,780 INFO org.springframework.boot.StartupInfoLogger [main] Started ViaVarejoTesteApplication in 3.387 seconds (JVM running for 4.26)
+2021-04-02 17:57:54,610 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-02 17:57:54,610 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
+2021-04-02 17:57:54,611 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Completed initialization in 1 ms
+2021-04-02 17:58:36,949 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(4)-127.0.0.1] Application shutdown requested.
+2021-04-02 17:58:36,984 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(4)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:58:43,155 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.4.Final
+2021-04-02 17:58:43,181 INFO org.springframework.boot.StartupInfoLogger [main] Starting ViaVarejoTesteApplication using Java 15.0.2 on DESKTOP-FRO1101 with PID 6944 (C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste\target\classes started by Daniel in C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste)
+2021-04-02 17:58:43,182 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-02 17:58:44,243 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-02 17:58:44,315 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 66 ms. Found 2 MongoDB repository interfaces.
+2021-04-02 17:58:44,956 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-02 17:58:44,970 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:58:44,971 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-02 17:58:44,971 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-02 17:58:45,085 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-02 17:58:45,086 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1844 ms
+2021-04-02 17:58:45,320 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-02 17:58:45,422 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606785853bde422f0d03dbda', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:199}] to localhost:27017
+2021-04-02 17:58:45,422 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606785853bde422f0d03dbda', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:200}] to localhost:27017
+2021-04-02 17:58:45,423 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606785853bde422f0d03dbda', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=32286100}
+2021-04-02 17:58:46,155 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-02 17:58:46,264 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:58:46,443 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:58:46,477 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/viavarejo'
+2021-04-02 17:58:46,479 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-04-02 17:58:46,512 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-04-02 17:58:46,559 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-04-02 17:58:46,920 INFO org.springframework.boot.StartupInfoLogger [main] Started ViaVarejoTesteApplication in 4.35 seconds (JVM running for 5.565)
+2021-04-02 17:58:50,065 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-02 17:58:50,066 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-02 17:58:50,067 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-04-02 17:59:29,726 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(4)-127.0.0.1] Application shutdown requested.
+2021-04-02 17:59:29,764 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(4)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:59:48,317 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.4.Final
+2021-04-02 17:59:48,341 INFO org.springframework.boot.StartupInfoLogger [main] Starting ViaVarejoTesteApplication using Java 15.0.2 on DESKTOP-FRO1101 with PID 12680 (C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste\target\classes started by Daniel in C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste)
+2021-04-02 17:59:48,342 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-02 17:59:49,327 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-02 17:59:49,392 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 59 ms. Found 2 MongoDB repository interfaces.
+2021-04-02 17:59:49,957 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-02 17:59:49,969 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:59:49,970 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-02 17:59:49,970 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-02 17:59:50,066 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-02 17:59:50,067 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1669 ms
+2021-04-02 17:59:50,274 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-02 17:59:50,356 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606785c6c022c66a15920120', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:202}] to localhost:27017
+2021-04-02 17:59:50,356 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606785c6c022c66a15920120', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:201}] to localhost:27017
+2021-04-02 17:59:50,356 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606785c6c022c66a15920120', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=27603800}
+2021-04-02 17:59:50,986 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-02 17:59:51,087 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-02 17:59:51,240 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-02 17:59:51,274 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/viavarejo'
+2021-04-02 17:59:51,275 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-04-02 17:59:51,306 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-04-02 17:59:51,349 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-04-02 17:59:51,685 INFO org.springframework.boot.StartupInfoLogger [main] Started ViaVarejoTesteApplication in 3.91 seconds (JVM running for 5.076)
+2021-04-02 17:59:58,315 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-02 17:59:58,315 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
+2021-04-02 17:59:58,316 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Completed initialization in 1 ms
+2021-04-02 17:59:58,414 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-3] Opened connection [connectionId{localValue:3, serverValue:203}] to localhost:27017
+2021-04-02 18:00:38,404 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-5] Procurando cliente pelo ID: 6064f9bb1bbac963d5a3bd3e
+2021-04-02 18:00:51,249 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-6] Procurando cliente pelo ID: 6064f9bb1bbac963d5a3bd3e1
+2021-04-02 18:01:00,558 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-8] Procurando cliente pelo ID: 6064f9bb1bbac963d5a3bd3e
+2021-04-02 18:01:13,131 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-4] Procurando cliente pelo ID: 6064f9bb1bbac963d5a3bd3e
+2021-04-02 18:01:13,135 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-4] Procurando cliente pelo ID: 6065ecb7e93cc9709dfd0f4e
+2021-04-02 18:01:13,138 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-4] Procurando cliente pelo ID: 6064f9bb1bbac963d5a3bd3e
+2021-04-02 18:03:09,006 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(8)-127.0.0.1] Application shutdown requested.
+2021-04-02 18:03:09,066 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(8)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-02 18:03:09,082 INFO com.mongodb.diagnostics.logging.SLF4JLogger [RMI TCP Connection(8)-127.0.0.1] Closed connection [connectionId{localValue:3, serverValue:203}] to localhost:27017 because the pool has been closed.
+2021-04-02 18:03:14,676 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.4.Final
+2021-04-02 18:03:14,688 INFO org.springframework.boot.StartupInfoLogger [main] Starting ViaVarejoTesteApplication using Java 15.0.2 on DESKTOP-FRO1101 with PID 7468 (C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste\target\classes started by Daniel in C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste)
+2021-04-02 18:03:14,689 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-02 18:03:15,575 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-02 18:03:15,635 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 54 ms. Found 2 MongoDB repository interfaces.
+2021-04-02 18:03:16,140 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-02 18:03:16,150 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-02 18:03:16,151 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-02 18:03:16,152 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-02 18:03:16,262 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-02 18:03:16,263 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1519 ms
+2021-04-02 18:03:16,436 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-02 18:03:16,502 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606786946ce6b859a4e7e5bf', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:204}] to localhost:27017
+2021-04-02 18:03:16,502 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='606786946ce6b859a4e7e5bf', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:205}] to localhost:27017
+2021-04-02 18:03:16,503 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='606786946ce6b859a4e7e5bf', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=22837400}
+2021-04-02 18:03:17,104 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-02 18:03:17,200 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-02 18:03:17,339 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-02 18:03:17,366 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/viavarejo'
+2021-04-02 18:03:17,367 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-04-02 18:03:17,391 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-04-02 18:03:17,427 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-04-02 18:03:17,758 INFO org.springframework.boot.StartupInfoLogger [main] Started ViaVarejoTesteApplication in 3.603 seconds (JVM running for 4.514)
+2021-04-02 18:03:20,366 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-02 18:03:20,366 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-04-02 18:03:20,367 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2021-04-02 18:03:20,455 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-2] Opened connection [connectionId{localValue:3, serverValue:206}] to localhost:27017
+2021-04-02 18:03:20,499 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-2] Procurando cliente pelo ID: 6064f9bb1bbac963d5a3bd3e
+2021-04-02 18:03:20,518 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-2] Procurando cliente pelo ID: 6065ecb7e93cc9709dfd0f4e
+2021-04-02 18:03:20,520 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-2] Procurando cliente pelo ID: 6064f9bb1bbac963d5a3bd3e
+2021-04-02 18:03:53,958 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-5] Procurando cliente pelo ID: 6064f9bb1bbac963d5a3bd3e
+2021-04-02 18:03:53,960 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-5] Procurando cliente pelo ID: 6065ecb7e93cc9709dfd0f4e
+2021-04-02 18:05:29,791 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(7)-127.0.0.1] Application shutdown requested.
+2021-04-02 18:05:29,821 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(7)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-02 18:05:29,828 INFO com.mongodb.diagnostics.logging.SLF4JLogger [RMI TCP Connection(7)-127.0.0.1] Closed connection [connectionId{localValue:3, serverValue:206}] to localhost:27017 because the pool has been closed.
+2021-04-02 18:05:35,540 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.4.Final
+2021-04-02 18:05:35,552 INFO org.springframework.boot.StartupInfoLogger [main] Starting ViaVarejoTesteApplication using Java 15.0.2 on DESKTOP-FRO1101 with PID 12552 (C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste\target\classes started by Daniel in C:\Users\Daniel\Documents\workspace-ssts\ViaVarejoTeste)
+2021-04-02 18:05:35,553 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-02 18:05:36,419 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-02 18:05:36,481 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 56 ms. Found 2 MongoDB repository interfaces.
+2021-04-02 18:05:36,987 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-02 18:05:36,998 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-02 18:05:36,998 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-02 18:05:36,999 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-02 18:05:37,099 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-02 18:05:37,099 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1493 ms
+2021-04-02 18:05:37,258 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-02 18:05:37,331 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='60678721d61cbf18b380d33a', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:207}] to localhost:27017
+2021-04-02 18:05:37,331 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60678721d61cbf18b380d33a', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:208}] to localhost:27017
+2021-04-02 18:05:37,332 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60678721d61cbf18b380d33a', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=20644100}
+2021-04-02 18:05:37,914 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-02 18:05:38,000 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-02 18:05:38,144 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-02 18:05:38,170 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/viavarejo'
+2021-04-02 18:05:38,171 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-04-02 18:05:38,194 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-04-02 18:05:38,234 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-04-02 18:05:38,520 INFO org.springframework.boot.StartupInfoLogger [main] Started ViaVarejoTesteApplication in 3.49 seconds (JVM running for 4.37)
+2021-04-02 18:05:53,653 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-02 18:05:53,654 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-02 18:05:53,655 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-04-02 18:05:53,740 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-1] Opened connection [connectionId{localValue:3, serverValue:209}] to localhost:27017
+2021-04-02 18:05:56,480 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-3] Procurando cliente pelo ID: 6064f9bb1bbac963d5a3bd3e
+2021-04-02 18:06:06,623 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-5] Procurando cliente pelo ID: 6065ecb7e93cc9709dfd0f4e1
+2021-04-02 18:06:10,818 INFO com.viavarejo.application.service.ClienteService [http-nio-8080-exec-6] Procurando cliente pelo ID: 6065ecb7e93cc9709dfd0f4e
