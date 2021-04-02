@@ -1,0 +1,351 @@
+{
+	"info": {
+		"_postman_id": "d763e7f4-8ca8-4e92-ad37-62c634d3769a",
+		"name": "ViaVarejoRestAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Apólice",
+			"item": [
+				{
+					"name": "Listar Apólices",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {},
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"nome\": \"Daniel Lins\",\r\n        \"cidade\": \"Curitiba\",\r\n        \"uf\": \"PR\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/viavarejo/api/apolices",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"viavarejo",
+								"api",
+								"apolices"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Criar Apólice",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"nome\": \"Daniel Lins\",\r\n        \"cidade\": \"Curitiba\",\r\n        \"uf\": \"PR\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/viavarejo/api/apolices",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"viavarejo",
+								"api",
+								"apolices"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Deletar Apólice",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"nome\": \"Daniel Lins\",\r\n        \"cidade\": \"Curitiba\",\r\n        \"uf\": \"PR\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/viavarejo/api/apolices",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"viavarejo",
+								"api",
+								"apolices"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar uma Apólice",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {},
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"nome\": \"Daniel Lins\",\r\n        \"cidade\": \"Curitiba\",\r\n        \"uf\": \"PR\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/viavarejo/api/apolices/606514150232a0588032a8db",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"viavarejo",
+								"api",
+								"apolices",
+								"606514150232a0588032a8db"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Atualizar Apólice",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n        \"dataInicioVigencia\": \"01/02/2021\",\r\n        \"dataFimVigencia\": \"01/04/2023\",\r\n        \"placaVeiculo\": \"AAA-1111\",\r\n        \"valor\": \"450,00\",\r\n        \"clienteID\":\"6064f9bb1bbac963d5a3bd3e\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/viavarejo/api/apolices/606514150232a0588032a8db",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"viavarejo",
+								"api",
+								"apolices",
+								"606514150232a0588032a8db"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Clientes",
+			"item": [
+				{
+					"name": "Listar Clientes",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {},
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"nome\": \"Daniel Lins\",\r\n        \"cidade\": \"Curitiba\",\r\n        \"uf\": \"PR\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/viavarejo/api/clientes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"viavarejo",
+								"api",
+								"clientes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Criar Cliente",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"nome\": \"Daniel Lins\",\r\n        \"cidade\": \"Curitiba\",\r\n        \"uf\": \"PR\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/viavarejo/api/clientes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"viavarejo",
+								"api",
+								"clientes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Deletar Cliente",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"nome\": \"Daniel Lins\",\r\n        \"cidade\": \"Curitiba\",\r\n        \"uf\": \"PR\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/viavarejo/api/clientes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"viavarejo",
+								"api",
+								"clientes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar um Cliente",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {},
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"nome\": \"Daniel Lins\",\r\n        \"cidade\": \"Curitiba\",\r\n        \"uf\": \"PR\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/viavarejo/api/clientes/6064f9bb1bbac963d5a3bd3e",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"viavarejo",
+								"api",
+								"clientes",
+								"6064f9bb1bbac963d5a3bd3e"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Atualizar Cliente",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n        \"dataInicioVigencia\": \"01/02/2021\",\r\n        \"dataFimVigencia\": \"01/04/2023\",\r\n        \"placaVeiculo\": \"AAA-1111\",\r\n        \"valor\": \"450,00\",\r\n        \"clienteID\":\"6064f9bb1bbac963d5a3bd3e\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/viavarejo/api/cliente/6064f9bb1bbac963d5a3bd3e",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"viavarejo",
+								"api",
+								"cliente",
+								"6064f9bb1bbac963d5a3bd3e"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
